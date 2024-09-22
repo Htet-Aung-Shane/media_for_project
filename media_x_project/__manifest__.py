@@ -2,6 +2,7 @@
     "name": "Media For Project",
     "description": "To add media at project ",
     "author": "MT Tech",
+    'version': '17.0.0.0',
     "application": True,
     "installable": True,
     "license": "LGPL-3",
