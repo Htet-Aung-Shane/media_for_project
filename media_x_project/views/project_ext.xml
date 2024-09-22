@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="project_task_form_inherit" model="ir.ui.view">
+        <field name="name">project.task.form.inherit</field>
+        <field name="model">project.task</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="project.view_task_form2" />
+        <field name="arch" type="xml">
+            <xpath expr="//page[@name='extra_info']" position="before">
+                <page name="project_media" string="Media">
+                    <field name="media_ids" widget="one2many_list" nolabel="1">
+                        <tree editable="bottom">
+                            <field name="attachment" widget="image" class="oe_avatar oe_right"/>
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
