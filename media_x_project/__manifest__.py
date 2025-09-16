@@ -17,4 +17,9 @@
             'media_x_project/static/src/xml/widget_image_preview.xml',
         }
     },
+    'images': [
+        'static/description/banner.png',
+        'static/description/screenshot1.png',  
+        'static/description/screenshot2.png',
+    ],
 }
